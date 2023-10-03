@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajar</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Quattrocento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <Header>
+        <div class="conteiner">
+            <h1>Vamos viajar!</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#destino">Destinos</a>
+                    </li>
+                    <li>
+                        <a href="#cadastro">Cadastro</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </Header>
+    <section id="destino">
+        <div class="conteiner">
+            <h2>Destinos</h2>
+            <div class="opcoes">
+                <article>
+                    <img src="./imagens/praia copy.jpg" alt="Praia"/>
+                    <h3>Praia</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quos voluptatibus, reprehenderit, accusamus exercitationem iste dolore sed eveniet temporibus voluptatem qui atque, earum perspiciatis modi facilis suscipit quae. Vero, sunt!
+                    </p>
+                    <a href="#" title="Mais informações">Veja mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/serra copy.jpg" alt="Serra"/>
+                    <h3>Serra</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quos voluptatibus, reprehenderit, accusamus exercitationem iste dolore sed eveniet temporibus voluptatem qui atque, earum perspiciatis modi facilis suscipit quae. Vero, sunt!
+                    </p>
+                    <a href="#" title="Mais informações">Veja mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/fazenda copy.jpg" alt="Hotel fazenda"/>
+                    <h3>Campo</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum quos voluptatibus, reprehenderit, accusamus exercitationem iste dolore sed eveniet temporibus voluptatem qui atque, earum perspiciatis modi facilis suscipit quae. Vero, sunt!
+                    </p>
+                    <a href="#" title="Mais informações">Veja mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="cadastro">
+        <div class="conteiner">
+            <h2>Cadastre-se</h2>
+            <div class="formulario">
+                <form>
+                    <input type="text" placeholder="Seu nome" required/>
+                    <input type="text" placeholder="Seu sobrenome" required/>
+                    <input type="email" placeholder="Seu e-mail" required/>
+                    <input type="tel" placeholder="Seu telefone"/>
+                    <h3>Qual seu destino?</h3>
+                    <div class="checkbox">
+                        <input type="radio" id="checkpraia" name="escolha" checked/>
+                        <label for="checkpraia">Praia</label>
+                        <input type="radio" id="checkserra" name="escolha"/>
+                        <label for="checkserra">Serra</label>
+                        <input type="radio" id="checkcampo" name="escolha"/>
+                        <label for="checkcampo">Campo</label>
+                    </div>
+                    <textarea placeholder="Sua observação"></textarea>
+                    <button type="submit">Cadastrar</button>
+                    <button type="reset">Limpar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="conteiner">
+            <p>
+                &copy; Viajar - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
